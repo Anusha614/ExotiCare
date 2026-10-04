@@ -1,0 +1,122 @@
+[
+  {
+    "name": "Loss of appetite",
+    "description": "Reduced or absent interest in food."
+  },
+  {
+    "name": "Weight loss",
+    "description": "Unintentional decrease in body weight."
+  },
+  {
+    "name": "Lethargy",
+    "description": "Reduced activity or unusual lack of responsiveness."
+  },
+  {
+    "name": "Weakness",
+    "description": "Reduced strength or difficulty performing normal activity."
+  },
+  {
+    "name": "Dehydration",
+    "description": "Insufficient body water, potentially associated with poor hydration or illness."
+  },
+  {
+    "name": "Regurgitation",
+    "description": "Expulsion of recently swallowed food from the digestive tract."
+  },
+  {
+    "name": "Diarrhea",
+    "description": "Abnormally loose or watery feces."
+  },
+  {
+    "name": "Constipation",
+    "description": "Difficulty passing feces or unusually infrequent defecation."
+  },
+  {
+    "name": "Abnormal feces",
+    "description": "Changes in fecal appearance, consistency, amount, or frequency."
+  },
+  {
+    "name": "Abdominal swelling",
+    "description": "Visible enlargement or distension of the abdomen."
+  },
+  {
+    "name": "Vomiting",
+    "description": "Forceful expulsion of stomach contents."
+  },
+  {
+    "name": "Difficulty breathing",
+    "description": "Abnormal or labored respiration."
+  },
+  {
+    "name": "Open-mouth breathing",
+    "description": "Breathing with the mouth held open outside normal thermoregulatory behavior."
+  },
+  {
+    "name": "Nasal discharge",
+    "description": "Abnormal fluid or mucus discharge from the nostrils."
+  },
+  {
+    "name": "Oral discharge",
+    "description": "Abnormal fluid, mucus, or material around the mouth."
+  },
+  {
+    "name": "Swollen mouth",
+    "description": "Visible swelling of tissues around or inside the mouth."
+  },
+  {
+    "name": "Mouth lesions",
+    "description": "Abnormal sores, ulcers, plaques, or damaged tissue in the mouth."
+  },
+  {
+    "name": "Excessive salivation",
+    "description": "Abnormally increased saliva or oral fluid."
+  },
+  {
+    "name": "Eye swelling",
+    "description": "Visible swelling around or involving an eye."
+  },
+  {
+    "name": "Eye discharge",
+    "description": "Abnormal fluid or discharge from an eye."
+  },
+  {
+    "name": "Cloudy eyes",
+    "description": "Abnormal cloudiness or opacity of the eye."
+  },
+  {
+    "name": "Abnormal shedding",
+    "description": "Difficulty shedding skin or incomplete retention of shed skin."
+  },
+  {
+    "name": "Retained shed",
+    "description": "Pieces of old skin remain attached after shedding."
+  },
+  {
+    "name": "Skin discoloration",
+    "description": "Unusual change in normal skin coloration."
+  },
+  {
+    "name": "Skin lesions",
+    "description": "Abnormal sores, wounds, ulcers, or damaged areas of skin."
+  },
+  {
+    "name": "Swelling",
+    "description": "Abnormal enlargement or fluid-associated swelling of a body part."
+  },
+  {
+    "name": "Limb swelling",
+    "description": "Abnormal enlargement or swelling of a limb."
+  },
+  {
+    "name": "Abnormal posture",
+    "description": "Unusual body positioning compared with the animal's normal posture."
+  },
+  {
+    "name": "Difficulty moving",
+    "description": "Reduced ability or reluctance to walk, climb, swim, or move normally."
+  },
+  {
+    "name": "Tremors",
+    "description": "Involuntary shaking or rhythmic muscle movements."
+  }
+]

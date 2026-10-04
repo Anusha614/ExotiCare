@@ -1,0 +1,456 @@
+[
+  {
+    "name": "Frozen-Thawed Mouse",
+    "category": "protein",
+    "speciesRules": [
+      {
+        "speciesName": "Ball Python",
+        "status": "safe",
+        "reason": "Standard whole-prey food for captive ball pythons."
+      },
+      {
+        "speciesName": "Boa Constrictor",
+        "status": "safe",
+        "reason": "Appropriate vertebrate prey when correctly sized."
+      },
+      {
+        "speciesName": "Corn Snake",
+        "status": "safe",
+        "reason": "Appropriate vertebrate prey for a carnivorous corn snake."
+      }
+    ],
+    "notes": "Use appropriately sized prey; frozen-thawed prey is preferred over routinely feeding live prey."
+  },
+  {
+    "name": "Frozen-Thawed Rat",
+    "category": "protein",
+    "speciesRules": [
+      {
+        "speciesName": "Ball Python",
+        "status": "safe",
+        "reason": "Appropriate whole vertebrate prey when correctly sized."
+      },
+      {
+        "speciesName": "Boa Constrictor",
+        "status": "safe",
+        "reason": "Appropriate whole vertebrate prey when correctly sized."
+      },
+      {
+        "speciesName": "Corn Snake",
+        "status": "safe",
+        "reason": "Can be used as appropriately sized vertebrate prey."
+      }
+    ],
+    "notes": "Thaw and warm before feeding."
+  },
+  {
+    "name": "Frozen-Thawed Chick",
+    "category": "protein",
+    "speciesRules": [
+      {
+        "speciesName": "Ball Python",
+        "status": "limited",
+        "reason": "Bird prey can be offered, but rodents are commonly used as primary prey."
+      },
+      {
+        "speciesName": "Boa Constrictor",
+        "status": "limited",
+        "reason": "Bird prey is an acceptable vertebrate prey option."
+      },
+      {
+        "speciesName": "Corn Snake",
+        "status": "limited",
+        "reason": "Bird prey can be used as an alternative vertebrate prey."
+      }
+    ],
+    "notes": "Use only appropriately sized prey."
+  },
+  {
+    "name": "Crickets",
+    "category": "insect",
+    "speciesRules": [
+      {
+        "speciesName": "Leopard Gecko",
+        "status": "safe",
+        "reason": "Common feeder insect for insectivorous lizards."
+      },
+      {
+        "speciesName": "Bearded Dragon",
+        "status": "safe",
+        "reason": "Appropriate insect component of an omnivorous diet."
+      },
+      {
+        "speciesName": "Crested Gecko",
+        "status": "safe",
+        "reason": "Can be offered as an insect component of the diet."
+      }
+    ],
+    "notes": "Use appropriately sized, nutritionally prepared feeder insects."
+  },
+  {
+    "name": "Mealworms",
+    "category": "insect",
+    "speciesRules": [
+      {
+        "speciesName": "Leopard Gecko",
+        "status": "safe",
+        "reason": "Common feeder insect for insectivorous lizards."
+      },
+      {
+        "speciesName": "Bearded Dragon",
+        "status": "limited",
+        "reason": "Can be used as a feeder insect but should not be the only insect offered."
+      },
+      {
+        "speciesName": "Crested Gecko",
+        "status": "limited",
+        "reason": "Can be offered as an occasional feeder insect."
+      }
+    ],
+    "notes": "Variety of feeder insects is preferable."
+  },
+  {
+    "name": "Dubia Roaches",
+    "category": "insect",
+    "speciesRules": [
+      {
+        "speciesName": "Leopard Gecko",
+        "status": "safe",
+        "reason": "Appropriate feeder insect for an insectivorous lizard."
+      },
+      {
+        "speciesName": "Bearded Dragon",
+        "status": "safe",
+        "reason": "Appropriate insect component of an omnivorous diet."
+      },
+      {
+        "speciesName": "Crested Gecko",
+        "status": "safe",
+        "reason": "Appropriate feeder insect when correctly sized."
+      }
+    ],
+    "notes": "Use appropriately sized feeder insects."
+  },
+  {
+    "name": "Waxworms",
+    "category": "insect",
+    "speciesRules": [
+      {
+        "speciesName": "Leopard Gecko",
+        "status": "limited",
+        "reason": "Suitable feeder insect but should not replace a varied main diet."
+      },
+      {
+        "speciesName": "Bearded Dragon",
+        "status": "limited",
+        "reason": "Can be offered as an occasional feeder insect."
+      },
+      {
+        "speciesName": "Crested Gecko",
+        "status": "limited",
+        "reason": "Can be offered occasionally rather than as a staple."
+      }
+    ],
+    "notes": "Treat/occasional feeder rather than the primary insect."
+  },
+  {
+    "name": "Collard Greens",
+    "category": "vegetable",
+    "speciesRules": [
+      {
+        "speciesName": "Bearded Dragon",
+        "status": "safe",
+        "reason": "Suitable leafy green for an omnivorous bearded dragon diet."
+      }
+    ],
+    "notes": "Offer as part of a varied plant component."
+  },
+  {
+    "name": "Dandelion Greens",
+    "category": "vegetable",
+    "speciesRules": [
+      {
+        "speciesName": "Bearded Dragon",
+        "status": "safe",
+        "reason": "Suitable plant food for an omnivorous reptile."
+      },
+      {
+        "speciesName": "Green Iguana",
+        "status": "safe",
+        "reason": "Suitable plant food for a herbivorous iguana."
+      },
+      {
+        "speciesName": "Greek Tortoise",
+        "status": "safe",
+        "reason": "Suitable plant food for a herbivorous tortoise."
+      },
+      {
+        "speciesName": "Red-Footed Tortoise",
+        "status": "safe",
+        "reason": "Suitable plant food for a herbivorous tortoise."
+      }
+    ],
+    "notes": "Use as part of a varied plant-based diet."
+  },
+  {
+    "name": "Carrot",
+    "category": "vegetable",
+    "speciesRules": [
+      {
+        "speciesName": "Bearded Dragon",
+        "status": "safe",
+        "reason": "Can be included in a varied vegetable mix."
+      },
+      {
+        "speciesName": "Green Iguana",
+        "status": "limited",
+        "reason": "Can be included in a varied vegetable mix rather than as the sole staple."
+      },
+      {
+        "speciesName": "Greek Tortoise",
+        "status": "limited",
+        "reason": "Can be used in a varied diet but should not displace high-fiber greens."
+      },
+      {
+        "speciesName": "Red-Footed Tortoise",
+        "status": "limited",
+        "reason": "Can be included in a varied plant diet."
+      },
+      {
+        "speciesName": "Red-Eared Slider",
+        "status": "safe",
+        "reason": "Can be included in the plant component of an omnivorous turtle diet."
+      }
+    ],
+    "notes": "Variety and species-appropriate diet composition are important."
+  },
+  {
+    "name": "Broccoli",
+    "category": "vegetable",
+    "speciesRules": [
+      {
+        "speciesName": "Bearded Dragon",
+        "status": "limited",
+        "reason": "Can be included in a varied vegetable mix."
+      },
+      {
+        "speciesName": "Green Iguana",
+        "status": "limited",
+        "reason": "Can be included occasionally in a varied plant diet."
+      },
+      {
+        "speciesName": "Red-Eared Slider",
+        "status": "safe",
+        "reason": "Can be part of the plant component of an omnivorous turtle diet."
+      }
+    ],
+    "notes": "Do not make a single vegetable the entire diet."
+  },
+  {
+    "name": "Clover Hay",
+    "category": "vegetable",
+    "speciesRules": [
+      {
+        "speciesName": "Greek Tortoise",
+        "status": "safe",
+        "reason": "High-fiber hay can form part of a herbivorous tortoise diet."
+      },
+      {
+        "speciesName": "Red-Footed Tortoise",
+        "status": "safe",
+        "reason": "Can contribute fiber to a varied herbivorous diet."
+      }
+    ],
+    "notes": "Hay and varied plant foods are important for herbivorous tortoises."
+  },
+  {
+    "name": "Watercress",
+    "category": "vegetable",
+    "speciesRules": [
+      {
+        "speciesName": "Green Iguana",
+        "status": "safe",
+        "reason": "Leafy plant food suitable for a herbivorous diet."
+      },
+      {
+        "speciesName": "Greek Tortoise",
+        "status": "safe",
+        "reason": "Leafy plant food suitable for a varied herbivorous diet."
+      },
+      {
+        "speciesName": "Red-Footed Tortoise",
+        "status": "safe",
+        "reason": "Leafy plant food suitable for a varied herbivorous diet."
+      }
+    ],
+    "notes": "Wash fresh produce and offer as part of a varied plant diet."
+  },
+  {
+    "name": "Dandelion",
+    "category": "vegetable",
+    "speciesRules": [
+      {
+        "speciesName": "Green Iguana",
+        "status": "safe",
+        "reason": "Leafy plant food appropriate for a herbivorous diet."
+      },
+      {
+        "speciesName": "Greek Tortoise",
+        "status": "safe",
+        "reason": "Appropriate plant food for a herbivorous tortoise."
+      },
+      {
+        "speciesName": "Red-Footed Tortoise",
+        "status": "safe",
+        "reason": "Appropriate plant food for a herbivorous tortoise."
+      }
+    ],
+    "notes": "Use pesticide-free leaves."
+  },
+  {
+    "name": "Apple",
+    "category": "fruit",
+    "speciesRules": [
+      {
+        "speciesName": "Green Iguana",
+        "status": "limited",
+        "reason": "Fruit should remain a small part of a herbivorous lizard's diet."
+      },
+      {
+        "speciesName": "Greek Tortoise",
+        "status": "limited",
+        "reason": "Fruit should be very limited in herbivorous tortoise diets."
+      },
+      {
+        "speciesName": "Red-Footed Tortoise",
+        "status": "limited",
+        "reason": "Can be offered in small amounts as part of a varied diet."
+      },
+      {
+        "speciesName": "Red-Eared Slider",
+        "status": "limited",
+        "reason": "Fruit can be offered as a limited part of an omnivorous turtle diet."
+      }
+    ],
+    "notes": "Remove seeds. Fruit should not replace the main species-appropriate diet."
+  },
+  {
+    "name": "Banana",
+    "category": "fruit",
+    "speciesRules": [
+      {
+        "speciesName": "Green Iguana",
+        "status": "limited",
+        "reason": "Fruit should remain limited in a herbivorous lizard diet."
+      },
+      {
+        "speciesName": "Red-Footed Tortoise",
+        "status": "limited",
+        "reason": "Can be offered occasionally as part of a varied diet."
+      },
+      {
+        "speciesName": "Red-Eared Slider",
+        "status": "limited",
+        "reason": "Can be offered as a limited fruit component."
+      }
+    ],
+    "notes": "Fruit should be a minor component, not the staple."
+  },
+  {
+    "name": "Blackberry",
+    "category": "fruit",
+    "speciesRules": [
+      {
+        "speciesName": "Green Iguana",
+        "status": "limited",
+        "reason": "Fruit should remain a small part of the diet."
+      },
+      {
+        "speciesName": "Red-Footed Tortoise",
+        "status": "limited",
+        "reason": "Can be offered in small amounts as dietary variety."
+      },
+      {
+        "speciesName": "Red-Eared Slider",
+        "status": "limited",
+        "reason": "Can be included occasionally in the fruit component."
+      }
+    ],
+    "notes": "Use fruit sparingly relative to species-appropriate greens and other foods."
+  },
+  {
+    "name": "Earthworms",
+    "category": "insect",
+    "speciesRules": [
+      {
+        "speciesName": "Red-Eared Slider",
+        "status": "safe",
+        "reason": "Animal protein can form part of an omnivorous turtle diet."
+      },
+      {
+        "speciesName": "Leopard Gecko",
+        "status": "safe",
+        "reason": "Earthworms are an available feeder invertebrate for insectivorous reptiles."
+      }
+    ],
+    "notes": "Use clean, appropriately sourced feeder animals."
+  },
+  {
+    "name": "Aquatic Invertebrates",
+    "category": "protein",
+    "speciesRules": [
+      {
+        "speciesName": "Red-Eared Slider",
+        "status": "safe",
+        "reason": "Aquatic invertebrates can contribute to the animal-protein component of an omnivorous turtle diet."
+      }
+    ],
+    "notes": "Use appropriately sourced feeder prey."
+  },
+  {
+    "name": "Commercial Aquatic Turtle Diet",
+    "category": "pellet",
+    "speciesRules": [
+      {
+        "speciesName": "Red-Eared Slider",
+        "status": "safe",
+        "reason": "Commercial diets can contribute to a balanced ration for aquatic turtles."
+      }
+    ],
+    "notes": "Choose a reputable formulation intended for aquatic turtles."
+  },
+  {
+    "name": "Commercial Crested Gecko Diet",
+    "category": "pellet",
+    "speciesRules": [
+      {
+        "speciesName": "Crested Gecko",
+        "status": "safe",
+        "reason": "Commercially formulated reptile diets provide a convenient prepared food option."
+      }
+    ],
+    "notes": "Use a complete diet specifically formulated for crested geckos."
+  },
+  {
+    "name": "Herbivorous Reptile Pellets",
+    "category": "pellet",
+    "speciesRules": [
+      {
+        "speciesName": "Green Iguana",
+        "status": "safe",
+        "reason": "Commercial herbivorous reptile preparations may contribute to the diet when appropriately formulated."
+      },
+      {
+        "speciesName": "Greek Tortoise",
+        "status": "safe",
+        "reason": "Commercial herbivorous reptile pellets can contribute to the diet."
+      },
+      {
+        "speciesName": "Red-Footed Tortoise",
+        "status": "safe",
+        "reason": "Commercial herbivorous reptile preparations can contribute to the diet."
+      }
+    ],
+    "notes": "Product formulation and species suitability matter."
+  }
+]
