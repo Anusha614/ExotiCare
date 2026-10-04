@@ -1,0 +1,362 @@
+[
+  {
+    "commonName": "Ball Python",
+    "scientificName": "Python regius",
+    "category": "reptile",
+    "description": "Terrestrial constricting snake native to western and central Africa.",
+    "lifespan": {
+      "min": 15,
+      "max": 30
+    },
+    "size": {
+      "min": 109,
+      "max": 136,
+      "unit": "cm"
+    },
+    "habitat": {
+      "enclosureType": "terrestrial",
+      "temperature": {
+        "min": 25,
+        "max": 30,
+        "unit": "°C"
+      },
+      "humidity": {
+        "min": 50,
+        "max": 80,
+        "unit": "%"
+      },
+      "uvbRequired": false,
+      "lighting": "12-hour day/night cycle; broad-spectrum lighting is recommended."
+    },
+    "diet": {
+      "type": "carnivore",
+      "description": "Appropriately sized whole-prey items such as rodents."
+    },
+    "careDifficulty": "intermediate",
+    "notes": "Provide a thermal gradient."
+  },
+  {
+    "commonName": "Leopard Gecko",
+    "scientificName": "Eublepharis macularius",
+    "category": "reptile",
+    "description": "Terrestrial, crepuscular gecko native to arid and semi-arid South Asia.",
+    "lifespan": {
+      "min": 15,
+      "max": 20
+    },
+    "size": {
+      "min": 17,
+      "max": 25,
+      "unit": "cm"
+    },
+    "habitat": {
+      "enclosureType": "terrestrial",
+      "temperature": {
+        "min": 25,
+        "max": 30,
+        "unit": "°C"
+      },
+      "humidity": {
+        "min": 20,
+        "max": 30,
+        "unit": "%"
+      },
+      "uvbRequired": false,
+      "lighting": "Naturalistic day/night cycle; low-level UVB may be beneficial."
+    },
+    "diet": {
+      "type": "insectivore",
+      "description": "Appropriately supplemented feeder insects."
+    },
+    "careDifficulty": "beginner",
+    "notes": "Provide an appropriate humid microclimate during shedding."
+  },
+  {
+    "commonName": "Bearded Dragon",
+    "scientificName": "Pogona vitticeps",
+    "category": "reptile",
+    "description": "Diurnal terrestrial lizard native to arid and semi-arid Australia.",
+    "lifespan": {
+      "min": 10,
+      "max": 15
+    },
+    "size": {
+      "min": 40,
+      "max": 60,
+      "unit": "cm"
+    },
+    "habitat": {
+      "enclosureType": "terrestrial desert/scrub",
+      "temperature": {
+        "min": 25,
+        "max": 32,
+        "unit": "°C"
+      },
+      "humidity": {
+        "min": 20,
+        "max": 30,
+        "unit": "%"
+      },
+      "uvbRequired": true,
+      "lighting": "Broad-spectrum UVB lighting is essential."
+    },
+    "diet": {
+      "type": "omnivore",
+      "description": "Plant matter plus appropriately sized insects; proportions vary with age."
+    },
+    "careDifficulty": "intermediate",
+    "notes": "Provide a warmer basking zone."
+  },
+  {
+    "commonName": "Corn Snake",
+    "scientificName": "Pantherophis guttatus",
+    "category": "reptile",
+    "description": "Nonvenomous, semi-arboreal snake native primarily to the southeastern United States.",
+    "lifespan": {
+      "min": 15,
+      "max": 25
+    },
+    "size": {
+      "min": 90,
+      "max": 150,
+      "unit": "cm"
+    },
+    "habitat": {
+      "enclosureType": "terrestrial/semi-arboreal",
+      "temperature": {
+        "min": 24,
+        "max": 32,
+        "unit": "°C"
+      },
+      "humidity": {
+        "min": 65,
+        "max": 75,
+        "unit": "%"
+      },
+      "uvbRequired": false,
+      "lighting": "Distinct day/night cycle; UVB can be beneficial."
+    },
+    "diet": {
+      "type": "carnivore",
+      "description": "Whole-prey diet, primarily appropriately sized rodents in captivity."
+    },
+    "careDifficulty": "beginner",
+    "notes": "Use a thermal gradient."
+  },
+  {
+    "commonName": "Green Iguana",
+    "scientificName": "Iguana iguana",
+    "category": "reptile",
+    "description": "Large semi-arboreal herbivorous lizard from tropical Central and South America.",
+    "lifespan": {
+      "min": 15,
+      "max": 20
+    },
+    "size": {
+      "min": 150,
+      "max": 210,
+      "unit": "cm"
+    },
+    "habitat": {
+      "enclosureType": "arboreal tropical",
+      "temperature": {
+        "min": 24,
+        "max": 31,
+        "unit": "°C"
+      },
+      "humidity": {
+        "min": 60,
+        "max": 80,
+        "unit": "%"
+      },
+      "uvbRequired": true,
+      "lighting": "Strong broad-spectrum UVB and appropriate basking lighting."
+    },
+    "diet": {
+      "type": "herbivore",
+      "description": "Primarily plant-based diet appropriate for iguanas."
+    },
+    "careDifficulty": "advanced",
+    "notes": "Adults become very large and require substantial enclosure space."
+  },
+  {
+    "commonName": "Boa Constrictor",
+    "scientificName": "Boa constrictor",
+    "category": "reptile",
+    "description": "Large constricting snake associated with terrestrial, rainforest and semi-arboreal habitats.",
+    "lifespan": {
+      "min": 20,
+      "max": 30
+    },
+    "size": {
+      "min": 180,
+      "max": 300,
+      "unit": "cm"
+    },
+    "habitat": {
+      "enclosureType": "terrestrial/semi-arboreal tropical",
+      "temperature": {
+        "min": 28,
+        "max": 31,
+        "unit": "°C"
+      },
+      "humidity": {
+        "min": 70,
+        "max": 95,
+        "unit": "%"
+      },
+      "uvbRequired": false,
+      "lighting": "Regular day/night cycle; broad-spectrum lighting may be beneficial."
+    },
+    "diet": {
+      "type": "carnivore",
+      "description": "Whole-prey diet with appropriately sized prey."
+    },
+    "careDifficulty": "advanced",
+    "notes": "Large adult size makes enclosure planning important."
+  },
+  {
+    "commonName": "Greek Tortoise",
+    "scientificName": "Testudo graeca",
+    "category": "reptile",
+    "description": "Terrestrial tortoise associated with temperate to subtropical habitats.",
+    "lifespan": {
+      "min": 50,
+      "max": 100
+    },
+    "size": {
+      "min": 15,
+      "max": 30,
+      "unit": "cm"
+    },
+    "habitat": {
+      "enclosureType": "terrestrial temperate/subtropical",
+      "temperature": {
+        "min": 20,
+        "max": 28,
+        "unit": "°C"
+      },
+      "humidity": {
+        "min": 30,
+        "max": 50,
+        "unit": "%"
+      },
+      "uvbRequired": true,
+      "lighting": "Broad-spectrum UVB lighting is essential."
+    },
+    "diet": {
+      "type": "herbivore",
+      "description": "Primarily high-fiber plant matter."
+    },
+    "careDifficulty": "intermediate",
+    "notes": "Hibernation varies by subspecies/locality."
+  },
+  {
+    "commonName": "Red-Footed Tortoise",
+    "scientificName": "Chelonoidis carbonarius",
+    "category": "reptile",
+    "description": "Tropical terrestrial tortoise requiring warm, humid conditions.",
+    "lifespan": {
+      "min": 50,
+      "max": 50
+    },
+    "size": {
+      "min": 30,
+      "max": 45,
+      "unit": "cm"
+    },
+    "habitat": {
+      "enclosureType": "terrestrial tropical",
+      "temperature": {
+        "min": 25,
+        "max": 30,
+        "unit": "°C"
+      },
+      "humidity": {
+        "min": 70,
+        "max": 90,
+        "unit": "%"
+      },
+      "uvbRequired": true,
+      "lighting": "Broad-spectrum UVB with appropriate daylight cycle."
+    },
+    "diet": {
+      "type": "herbivore",
+      "description": "Primarily plant matter with species-appropriate dietary variety."
+    },
+    "careDifficulty": "intermediate",
+    "notes": "High humidity is important; outdoor housing is preferred where climate permits."
+  },
+  {
+    "commonName": "Red-Eared Slider",
+    "scientificName": "Trachemys scripta elegans",
+    "category": "reptile",
+    "description": "Semi-aquatic turtle requiring aquatic space and a dry basking area.",
+    "lifespan": {
+      "min": 20,
+      "max": 30
+    },
+    "size": {
+      "min": 20,
+      "max": 31,
+      "unit": "cm"
+    },
+    "habitat": {
+      "enclosureType": "aquatic/semi-aquatic",
+      "temperature": {
+        "min": 22,
+        "max": 27,
+        "unit": "°C"
+      },
+      "humidity": {
+        "min": null,
+        "max": null,
+        "unit": "aquatic"
+      },
+      "uvbRequired": true,
+      "lighting": "Broad-spectrum UVB and suitable basking lighting."
+    },
+    "diet": {
+      "type": "omnivore",
+      "description": "Mixed plant and animal matter; proportions vary with age."
+    },
+    "careDifficulty": "advanced",
+    "notes": "Requires substantial aquatic space plus a dry basking area."
+  },
+  {
+    "commonName": "Crested Gecko",
+    "scientificName": "Correlophus ciliatus",
+    "category": "reptile",
+    "description": "Arboreal gecko native to New Caledonia.",
+    "lifespan": {
+      "min": 15,
+      "max": 20
+    },
+    "size": {
+      "min": 20,
+      "max": 22,
+      "unit": "cm"
+    },
+    "habitat": {
+      "enclosureType": "arboreal tropical",
+      "temperature": {
+        "min": 18,
+        "max": 29,
+        "unit": "°C"
+      },
+      "humidity": {
+        "min": 60,
+        "max": 80,
+        "unit": "%"
+      },
+      "uvbRequired": true,
+      "lighting": "Low-level UVB with an appropriate day/night cycle."
+    },
+    "diet": {
+      "type": "omnivore",
+      "description": "Complete crested-gecko diet with appropriately offered insect prey."
+    },
+    "careDifficulty": "beginner",
+    "notes": "Provide vertical climbing space and avoid excessive heat."
+  }
+]

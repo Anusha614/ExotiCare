@@ -1,8 +1,6 @@
 import express from 'express';
 import mongoose from 'mongoose';
 import {DB_NAME} from '../constants.js';
-import dotenv from "dotenv";
-dotenv.config({ path: './.env' })
 
 const connectDB = async () => {
     try {
@@ -11,8 +9,7 @@ const connectDB = async () => {
             console.log(`mongoDB connected: ${connectionInstance.connection.host}`)
         }
     } catch (error) {
-        console.log(error)
-        throw error
+        console.log(error) 
     }
 }
 
