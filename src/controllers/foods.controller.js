@@ -1,5 +1,5 @@
 import { isValidObjectId } from "mongoose";
-import asyncHandler from "express-async-handler";
+import asyncHandler from "./healthEvents.controllers.js";
 import { apiError } from "../utils/apiError.js";
 import { ApiResponse } from "../utils/apiResponse.js";
 import { Food } from "../models/foods.model.js";

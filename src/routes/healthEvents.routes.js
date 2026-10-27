@@ -3,7 +3,7 @@ import { createHealthEvent,
     getHealthEvents,
     updateHealthEvent,
     deleteHealthEvent
- } from "../controllers/healthEvents.controller.js";
+ } from "../controllers/healthEvents.controllers.js";
  import { verifyJWT } from "../middlewares/auth.middleware.js";
 
 

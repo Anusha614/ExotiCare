@@ -1,8 +1,8 @@
 import { isValidObjectId } from "mongoose";
-import asyncHandler from "express-async-handler";
+import asyncHandler from "./../utils/asyncHandler.js";
 import { apiError } from "../utils/apiError.js";
 import { ApiResponse } from "../utils/apiResponse.js";
-import { Symptom } from "../models/symptom.model.js";
+import { Symptom } from "../models/symptoms.model.js";
 import { Species } from "../models/species.model.js";
 
 // get all symptoms

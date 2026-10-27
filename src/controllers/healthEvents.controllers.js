@@ -1,8 +1,8 @@
 import  { isValidObjectId } from "mongoose";
-import asyncHandler from "express-async-handler";
-import { apiError } from "../utils/apiError.js";
+import {asyncHandler} from "./../utils/asyncHandler.js";
+import { ApiError } from "../utils/apiError.js";
 import { ApiResponse } from "../utils/apiResponse.js";
-import HealthEvent from "../models/healthEvents.model.js";
+import { HealthEvent } from "../models/healthEvents.model.js";
 import { Pet } from "../models/pets.model.js";
 
 
@@ -28,11 +28,11 @@ export const createHealthEvent = asyncHandler(async (req, res) => {
     const petData = await Pet.findById(pet);
 
     if (!petData) {
-        throw new apiError(404, "Pet not found");
+        throw new ApiError(404, "Pet not found");
     }
 
     if (petData.owner.toString() !== req.user._id.toString()) {
-        throw new apiError(
+        throw new ApiError(
             403,
             "You are not authorized to add a health event for this pet"
         );
@@ -72,11 +72,11 @@ export const getHealthEvents = asyncHandler(async (req, res) => {
     const petData = await Pet.findById(petId);
 
     if (!petData) {
-        throw new apiError(404, "Pet not found");
+        throw new ApiError(404, "Pet not found");
     }
 
     if (petData.owner.toString() !== req.user._id.toString()) {
-        throw new apiError(
+        throw new ApiError(
             403,
             "You are not authorized to view health events for this pet"
         );
@@ -113,23 +113,23 @@ export const updateHealthEvent = asyncHandler(async (req, res) => {
     } = req.body;
 
     if (!isValidObjectId(eventId)) {
-        throw new apiError(400, "Invalid health event ID");
+        throw new ApiError(400, "Invalid health event ID");
     }
 
     const healthEvent = await HealthEvent.findById(eventId);
 
     if (!healthEvent) {
-        throw new apiError(404, "Health event not found");
+        throw new ApiError(404, "Health event not found");
     }
 
     const petData = await Pet.findById(healthEvent.pet);
 
     if (!petData) {
-        throw new apiError(404, "Pet not found");
+        throw new ApiError(404, "Pet not found");
     }
 
     if (petData.owner.toString() !== req.user._id.toString()) {
-        throw new apiError(
+        throw new ApiError(
             403,
             "You are not authorized to update this health event"
         );
@@ -169,23 +169,23 @@ export const deleteHealthEvent = asyncHandler(async (req, res) => {
     const { eventId } = req.params;
 
     if (!isValidObjectId(eventId)) {
-        throw new apiError(400, "Invalid health event ID");
+        throw new ApiError(400, "Invalid health event ID");
     }
 
     const healthEvent = await HealthEvent.findById(eventId);
 
     if (!healthEvent) {
-        throw new apiError(404, "Health event not found");
+        throw new ApiError(404, "Health event not found");
     }
 
     const petData = await Pet.findById(healthEvent.pet);
 
     if (!petData) {
-        throw new apiError(404, "Pet not found");
+        throw new ApiError(404, "Pet not found");
     }
 
     if (petData.owner.toString() !== req.user._id.toString()) {
-        throw new apiError(
+        throw new ApiError(
             403,
             "You are not authorized to delete this health event"
         );
