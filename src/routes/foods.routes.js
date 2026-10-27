@@ -13,7 +13,7 @@ import { getAllFoods,
 
  router.route("/").get(getAllFoods)
  router.route("/:foodId").get(getFoodById)
- router.route("/species/:species").get(getFoodsBySpecies)
+ router.route("/species/:speciesId").get(getFoodsBySpecies)
  router.route("/search").get(searchFoods)
 
  export default router

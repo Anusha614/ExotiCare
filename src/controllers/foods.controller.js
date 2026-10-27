@@ -2,7 +2,7 @@ import { isValidObjectId } from "mongoose";
 import asyncHandler from "express-async-handler";
 import { apiError } from "../utils/apiError.js";
 import { ApiResponse } from "../utils/apiResponse.js";
-import { Food } from "../models/food.model.js";
+import { Food } from "../models/foods.model.js";
 import { Species } from "../models/species.model.js";
 
 
