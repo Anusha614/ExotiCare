@@ -1,7 +1,7 @@
 import mongoose, {isValidObjectId} from "mongoose";
 import { Pet } from "../models/pets.model.js";
 import {ApiResponse} from "../utils/apiResponse.js";
-import {apiError} from "../utils/apiError.js";
+import {ApiError} from "../utils/apiError.js";
 import {asyncHandler} from "../utils/asyncHandler.js";
 
 //creeate ne pet

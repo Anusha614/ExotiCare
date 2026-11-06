@@ -1,8 +1,8 @@
 import { isValidObjectId } from "mongoose";
-import asyncHandler from "./../utils/asyncHandler.js";
-import { apiError } from "../utils/apiError.js";
+import {asyncHandler} from "./../utils/asyncHandler.js";
+import { ApiError } from "../utils/apiError.js";
 import { ApiResponse } from "../utils/apiResponse.js";
-import Reminder from "../models/reminder.model.js";
+import {Reminder} from "../models/reminder.model.js";
 import { Pet } from "../models/pets.model.js";
 
 // create new reminder

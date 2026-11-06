@@ -1,6 +1,6 @@
 import { isValidObjectId } from "mongoose";
-import asyncHandler from "./../utils/asyncHandler.js";
-import { apiError } from "../utils/apiError.js";
+import {asyncHandler} from "./../utils/asyncHandler.js";
+import { ApiError } from "../utils/apiError.js";
 import { ApiResponse } from "../utils/apiResponse.js";
 import { Symptom } from "../models/symptoms.model.js";
 import { Species } from "../models/species.model.js";

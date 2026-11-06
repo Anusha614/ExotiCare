@@ -1,6 +1,6 @@
 import express from 'express';
-import asyncHandler from "./../utils/asyncHandler.js"
-import { apiError } from "../utils/apiError.js";
+import {asyncHandler} from "./../utils/asyncHandler.js"
+import { ApiError } from "../utils/apiError.js";
 import { ApiResponse } from "../utils/apiResponse.js";
 import { User } from "../models/users.model.js";
 import { isValidObjectId } from "mongoose";
@@ -16,7 +16,7 @@ export const registerUser = asyncHandler(async (req, res) => {
     const existingUser = await User.findOne({ $or: [{ username }, { email }] });
 
     if (existingUser) {
-        throw new apiError(400, "Username or email already exists");
+        throw new ApiError(400, "Username or email already exists");
     }
 
     const registeredUser = await User.create({

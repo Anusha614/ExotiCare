@@ -1,6 +1,6 @@
 import { isValidObjectId } from "mongoose";
-import asyncHandler from "./healthEvents.controllers.js";
-import { apiError } from "../utils/apiError.js";
+import {asyncHandler} from "../utils/asyncHandler.js";
+import { ApiError } from "../utils/apiError.js";
 import { ApiResponse } from "../utils/apiResponse.js";
 import { Food } from "../models/foods.model.js";
 import { Species } from "../models/species.model.js";
@@ -31,13 +31,13 @@ export const getFoodById = asyncHandler(async (req, res) => {
     const { foodId } = req.params;
 
     if (!isValidObjectId(foodId)) {
-        throw new apiError(400, "Invalid food ID");
+        throw new ApiError(400, "Invalid food ID");
     }
 
     const food = await Food.findById(foodId);
 
     if (!food) {
-        throw new apiError(404, "Food not found");
+        throw new ApiError("Food not found", 404 );
     }
 
     return res
@@ -59,13 +59,13 @@ export const getFoodsBySpecies = asyncHandler(async (req, res) => {
     const { speciesId } = req.params;
 
     if (!isValidObjectId(speciesId)) {
-        throw new apiError(400, "Invalid species ID");
+        throw new ApiError(400, "Invalid species ID");
     }
 
     const species = await Species.findById(speciesId);
 
     if (!species) {
-        throw new apiError(404, "Species not found");
+        throw new ApiError(404, "Species not found");
     }
 
     const foods = await Food.find({
@@ -91,7 +91,7 @@ export const searchFoods = asyncHandler(async (req, res) => {
     const { search } = req.query;
 
     if (!search) {
-        throw new apiError(400, "Search query is required");
+        throw new ApiError(400, "Search query is required");
     }
 
     const foods = await Food.find({

@@ -1,6 +1,6 @@
 import { isValidObjectId } from "mongoose";
-import asyncHandler from "./../utils/asyncHandler.js";
-import { apiError } from "../utils/apiError.js";
+import {asyncHandler} from "./../utils/asyncHandler.js";
+import { ApiError } from "../utils/apiError.js";
 import { ApiResponse } from "../utils/apiResponse.js";
 import { Species } from "../models/species.model.js";
 
@@ -19,7 +19,7 @@ export const getSpeciesById = asyncHandler(async (req, res) => {
     const { speciesId } = req.params;
 
     if (!isValidObjectId(speciesId)) {
-        throw new apiError(400, "Invalid species ID");
+        throw new ApiError(400, "Invalid species ID");
     }
 
     const species = await Species.findById(speciesId);
@@ -69,7 +69,7 @@ export const getSpeciesByCategory = asyncHandler(async (req, res) => {
     ];
 
     if (!validCategories.includes(category.toLowerCase())) {
-        throw new apiError(400, "Invalid species category");
+        throw new ApiError(400, "Invalid species category");
     }
 
     const species = await Species.find({
